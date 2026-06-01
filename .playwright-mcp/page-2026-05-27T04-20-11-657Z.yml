@@ -1,0 +1,417 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img [ref=e8]
+        - generic [ref=e12]:
+          - heading "SH HOTEL" [level=1] [ref=e13]
+          - paragraph [ref=e14]: IT Meeting Recorder
+      - generic [ref=e15]: 대모산 SH호텔 IT 서비스 기획
+    - generic [ref=e16]:
+      - button "업무 회의록" [ref=e17]:
+        - img [ref=e18]
+        - generic [ref=e22]: 업무 회의록
+      - button "김수현 블로그" [ref=e23]:
+        - img [ref=e24]
+        - generic [ref=e27]: 김수현 블로그
+    - button "새 회의 추가하기" [ref=e30]:
+      - img [ref=e31]
+      - generic [ref=e32]: 새 회의 추가하기
+    - generic [ref=e34]:
+      - img [ref=e35]
+      - textbox "회의 제목, 부서, 내용 검색..." [ref=e38]
+    - generic [ref=e39]:
+      - paragraph [ref=e41]: 미팅 히스토리 (1)
+      - generic [ref=e43] [cursor=pointer]:
+        - heading "대모산 SH호텔 로봇 자동화 서비스 설계 주간 미팅" [level=3] [ref=e45]
+        - generic [ref=e46]:
+          - img [ref=e47]
+          - generic [ref=e51]: 호텔 IT 사업부
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - img [ref=e54]
+            - generic [ref=e56]: 2026-05-27
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - img [ref=e59]
+              - text: AI
+            - button "기록 삭제" [ref=e62]:
+              - img [ref=e63]
+    - generic [ref=e66]:
+      - generic [ref=e67]: 보기 방식
+      - generic [ref=e68]:
+        - button "목록" [ref=e69]:
+          - img [ref=e70]
+          - generic [ref=e71]: 목록
+        - button "캘린더" [ref=e72]:
+          - img [ref=e73]
+          - generic [ref=e75]: 캘린더
+    - generic [ref=e76]: SH Hotel System Environment
+  - main [ref=e77]:
+    - generic [ref=e78]:
+      - generic [ref=e79]:
+        - generic [ref=e80]: In-house Tech PM Service
+        - generic [ref=e81]:
+          - img [ref=e82]
+          - heading "김수현 PM 블로그 연동 대시보드" [level=2] [ref=e245]
+      - generic [ref=e85]: "System status: ● Online"
+    - generic [ref=e246]:
+      - generic [ref=e248]:
+        - generic [ref=e249]:
+          - generic [ref=e250]:
+            - generic [ref=e251]: EXTERNAL SYNC MODULE
+            - generic [ref=e252]: Live API Ready
+          - heading "김수현 PM 포트폴리오 & 블로그 연동 대시보드" [level=2] [ref=e254]
+          - paragraph [ref=e255]:
+            - text: 호텔 IT 기획 담당 김수현 PM의 개인 기술 블로그(
+            - code [ref=e256]: suhyunkim-maker.github.io
+            - text: )에 탑재된 프로젝트 포스팅 내역을 실시간 수집하고, 서버 로그 연계 아카이브에 영구적으로 보존합니다.
+        - button "블로그 데이터 동기화" [ref=e257]:
+          - img [ref=e258]
+          - generic [ref=e263]: 블로그 데이터 동기화
+      - generic [ref=e305]:
+        - img [ref=e306]
+        - generic [ref=e309]:
+          - strong [ref=e310]: 블로그 동기화 완료!
+          - text: suhyunkim-maker.github.io 서버에서 15개의 게시글 목록 정보를 안정적으로 가져와
+          - code [ref=e311]: logs/blog_sync.log
+          - text: 파일에 동기화 내역을 보관했습니다.
+      - generic [ref=e264]:
+        - generic [ref=e265]:
+          - heading "연동된 실무 포스트 목록 (15건)" [level=3] [ref=e312]:
+            - img [ref=e267]
+            - text: 연동된 실무 포스트 목록 (15건)
+          - generic [ref=e269]: "Source: suhyunkim-maker.github.io/posts.json"
+        - generic [ref=e270]:
+          - generic [ref=e313]:
+            - generic [ref=e314]:
+              - generic [ref=e315]:
+                - generic [ref=e316]: Projects
+                - generic [ref=e317]:
+                  - img [ref=e318]
+                  - text: 2026-05-19
+              - heading "Google AI Studio(Gemini API)로 PDF 파일 핵심 키워드 요약 기능 구현하기" [level=4] [ref=e320]
+              - paragraph [ref=e321]: Google AI Studio의 Gemini API와 파이썬 PyMuPDF 라이브러리를 활용하여 PDF 파일 텍스트를 자동으로 분석하고 가장 중요한 키워드 20개를 추출하는 앱 서비스 백엔드 코드를 소개합니다.
+            - generic [ref=e322]:
+              - generic [ref=e323]:
+                - generic [ref=e324]: "#Python"
+                - generic [ref=e325]: "#Gemini API"
+                - generic [ref=e326]: "#AI"
+                - generic [ref=e327]: "#PDF"
+                - generic [ref=e328]: "#PyMuPDF"
+              - generic [ref=e329]:
+                - link "원문 보기" [ref=e330] [cursor=pointer]:
+                  - /url: https://suhyunkim-maker.github.io/post.html?file=gemini-pdf-keyword-summary.md
+                  - generic [ref=e331]: 원문 보기
+                  - img [ref=e332]
+                - button "회의록으로 가져오기" [ref=e336]:
+                  - img [ref=e337]
+                  - generic [ref=e340]: 회의록으로 가져오기
+          - generic [ref=e341]:
+            - generic [ref=e342]:
+              - generic [ref=e343]:
+                - generic [ref=e344]: Projects
+                - generic [ref=e345]:
+                  - img [ref=e346]
+                  - text: 2026-05-19
+              - heading "Playwright MCP 크롤링부터 최저가 알림 봇 만들기 (카드뉴스 포함)" [level=4] [ref=e348]
+              - paragraph [ref=e349]: 번개장터 물티슈 상품 데이터를 자동으로 스크래핑한 경험과, 수집한 데이터를 바탕으로 예산 이하의 '꿀매' 상품이 올라왔을 때 알려주는 최저가 알림 봇 파이썬 코드를 작성해 보았습니다.
+            - generic [ref=e350]:
+              - generic [ref=e351]:
+                - generic [ref=e352]: "#Python"
+                - generic [ref=e353]: "#Playwright"
+                - generic [ref=e354]: "#Automation"
+                - generic [ref=e355]: "#Bot"
+              - generic [ref=e356]:
+                - link "원문 보기" [ref=e357] [cursor=pointer]:
+                  - /url: https://suhyunkim-maker.github.io/post.html?file=bunjang-price-alert-bot.md
+                  - generic [ref=e358]: 원문 보기
+                  - img [ref=e359]
+                - button "회의록으로 가져오기" [ref=e363]:
+                  - img [ref=e364]
+                  - generic [ref=e367]: 회의록으로 가져오기
+          - generic [ref=e368]:
+            - generic [ref=e369]:
+              - generic [ref=e370]:
+                - generic [ref=e371]: Projects
+                - generic [ref=e372]:
+                  - img [ref=e373]
+                  - text: 2026-05-19
+              - 'heading "경기데이터드림: 경력단절 여성 취업지원 교육과정 데이터 분석 시각화" [level=4] [ref=e375]'
+              - paragraph [ref=e376]: 이번 포스팅에서는 경기데이터드림 데이터를 바탕으로 도출된 핵심 집계 결과를 Mermaid 차트로 시각화하여 직종별 교육 인사이트를 확인해 봅니다.
+            - generic [ref=e377]:
+              - generic [ref=e378]:
+                - generic [ref=e379]: "#Data Analysis"
+                - generic [ref=e380]: "#EDA"
+                - generic [ref=e381]: "#Open API"
+                - generic [ref=e382]: "#Mermaid"
+                - generic [ref=e383]: "#Visualization"
+              - generic [ref=e384]:
+                - link "원문 보기" [ref=e385] [cursor=pointer]:
+                  - /url: https://suhyunkim-maker.github.io/post.html?file=gg-career-data-visualization.md
+                  - generic [ref=e386]: 원문 보기
+                  - img [ref=e387]
+                - button "회의록으로 가져오기" [ref=e391]:
+                  - img [ref=e392]
+                  - generic [ref=e395]: 회의록으로 가져오기
+          - generic [ref=e396]:
+            - generic [ref=e397]:
+              - generic [ref=e398]:
+                - generic [ref=e399]: Projects
+                - generic [ref=e400]:
+                  - img [ref=e401]
+                  - text: 2026-05-19
+              - heading "공공데이터 분석 및 블로그 자동 배포 워크플로우" [level=4] [ref=e403]
+              - paragraph [ref=e404]: 본 포스팅에서는 공공데이터 Open API를 수집, pandas로 분석한 뒤, GitHub 블로그에 자동으로 포스팅을 발행하는 과정을 안내합니다.
+            - generic [ref=e405]:
+              - generic [ref=e406]:
+                - generic [ref=e407]: "#Python"
+                - generic [ref=e408]: "#Automation"
+                - generic [ref=e409]: "#API"
+                - generic [ref=e410]: "#Data Analysis"
+              - generic [ref=e411]:
+                - link "원문 보기" [ref=e412] [cursor=pointer]:
+                  - /url: https://suhyunkim-maker.github.io/post.html?file=public-data-workflow-guide.md
+                  - generic [ref=e413]: 원문 보기
+                  - img [ref=e414]
+                - button "회의록으로 가져오기" [ref=e418]:
+                  - img [ref=e419]
+                  - generic [ref=e422]: 회의록으로 가져오기
+          - generic [ref=e423]:
+            - generic [ref=e424]:
+              - generic [ref=e425]:
+                - generic [ref=e426]: Projects
+                - generic [ref=e427]:
+                  - img [ref=e428]
+                  - text: 2026-05-19
+              - heading "전국문화축제표준데이터 OpenAPI로 지역별 문화축제 현황 분석하기" [level=4] [ref=e430]
+              - paragraph [ref=e431]: 이번 포스팅에서는 공공데이터포털에서 제공하는 전국문화축제표준데이터 Open API를 활용하여 데이터를 수집하고 분석하는 전체 과정을 정리해 봅니다. 단순히 API를 호출하는 것을 넘어, 응답받은 JSON 데이터를 pandas DataFrame으로 변환하고, 데이터 전처리 후 시각화(EDA)까지 진행하여 인사이트를 도출하는 것이 핵심입니다.
+            - generic [ref=e432]:
+              - generic [ref=e433]:
+                - generic [ref=e434]: "#Python"
+                - generic [ref=e435]: "#Pandas"
+                - generic [ref=e436]: "#API"
+                - generic [ref=e437]: "#Data Analysis"
+                - generic [ref=e438]: "#EDA"
+              - generic [ref=e439]:
+                - link "원문 보기" [ref=e440] [cursor=pointer]:
+                  - /url: https://suhyunkim-maker.github.io/post.html?file=national-festival-openapi-eda.md
+                  - generic [ref=e441]: 원문 보기
+                  - img [ref=e442]
+                - button "회의록으로 가져오기" [ref=e446]:
+                  - img [ref=e447]
+                  - generic [ref=e450]: 회의록으로 가져오기
+          - generic [ref=e451]:
+            - generic [ref=e452]:
+              - generic [ref=e453]:
+                - generic [ref=e454]: Projects
+                - generic [ref=e455]:
+                  - img [ref=e456]
+                  - text: 2026-05-18
+              - heading "Open API JSON 데이터를 Pandas DataFrame으로 변환하기" [level=4] [ref=e458]
+              - paragraph [ref=e459]: 이번 실습에서는 경기데이터드림 Open API를 활용하여 공공데이터 JSON 응답을 성공적으로 수집하고, 이를 데이터 분석에 적합한 pandas DataFrame 구조로 변환하는 방법을 다룹니다.
+            - generic [ref=e460]:
+              - generic [ref=e461]:
+                - generic [ref=e462]: "#Python"
+                - generic [ref=e463]: "#Pandas"
+                - generic [ref=e464]: "#API"
+                - generic [ref=e465]: "#Data Analysis"
+              - generic [ref=e466]:
+                - link "원문 보기" [ref=e467] [cursor=pointer]:
+                  - /url: https://suhyunkim-maker.github.io/post.html?file=openapi-data-parsing.md
+                  - generic [ref=e468]: 원문 보기
+                  - img [ref=e469]
+                - button "회의록으로 가져오기" [ref=e473]:
+                  - img [ref=e474]
+                  - generic [ref=e477]: 회의록으로 가져오기
+          - generic [ref=e478]:
+            - generic [ref=e479]:
+              - generic [ref=e480]:
+                - generic [ref=e481]: Projects
+                - generic [ref=e482]:
+                  - img [ref=e483]
+                  - text: 2026-05-15
+              - heading "saramin-market-analysis-2026" [level=4] [ref=e485]
+              - paragraph [ref=e486]: "최근 크롤링 기술을 활용하여 에서 \"데이터 분석가\" 관련 채용 공고 120여 건을 수집하고 분석했습니다. 이번 분석을 통해 2026년 현재 데이터 분석 직군의 요구 사항과 시장 트렌드를 살펴보았습니다. --- - : 2026년 05월 14일 - : 사람인 채용 공고 (회사명, 직무 타이틀, 지역, 경력 등) - : 121건 수집된 데이터에 따르면, '신입'..."
+            - generic [ref=e488]:
+              - link "원문 보기" [ref=e489] [cursor=pointer]:
+                - /url: https://suhyunkim-maker.github.io/post.html?file=saramin-market-analysis-2026.md
+                - generic [ref=e490]: 원문 보기
+                - img [ref=e491]
+              - button "회의록으로 가져오기" [ref=e495]:
+                - img [ref=e496]
+                - generic [ref=e499]: 회의록으로 가져오기
+          - generic [ref=e500]:
+            - generic [ref=e501]:
+              - generic [ref=e502]:
+                - generic [ref=e503]: Projects
+                - generic [ref=e504]:
+                  - img [ref=e505]
+                  - text: 2026-05-15
+              - heading "saramin-crawling-analysis" [level=4] [ref=e507]
+              - paragraph [ref=e508]: "오늘 파이썬의 `Requests`와 `BeautifulSoup` 라이브러리를 활용하여 국내 대표 채용 사이트인 에서 실시간 채용 정보를 수집하고 분석하는 프로젝트를 진행했습니다. --- 단순히 웹페이지를 보는 것을 넘어, 파이썬 코드로 데이터를 자동 수집하고 분석하는 전체 과정을 실습했습니다. - : 사람인 (Saramin) - : \"데이터 분석가\" - :..."
+            - generic [ref=e510]:
+              - link "원문 보기" [ref=e511] [cursor=pointer]:
+                - /url: https://suhyunkim-maker.github.io/post.html?file=saramin-crawling-analysis.md
+                - generic [ref=e512]: 원문 보기
+                - img [ref=e513]
+              - button "회의록으로 가져오기" [ref=e517]:
+                - img [ref=e518]
+                - generic [ref=e521]: 회의록으로 가져오기
+          - generic [ref=e522]:
+            - generic [ref=e523]:
+              - generic [ref=e524]:
+                - generic [ref=e525]: Projects
+                - generic [ref=e526]:
+                  - img [ref=e527]
+                  - text: 2026-05-15
+              - heading "ohtani-analysis" [level=4] [ref=e529]
+              - paragraph [ref=e530]: 안녕하세요! 오늘은 야구 데이터 분석의 꽃이라 불리는 의 2026년 성적을 예측해보는 과정을 단계별로 함께 살펴보겠습니다. --- 세이버매트릭스는 통계학적 방법론을 통해 야구 선수의 성적을 분석하는 기법입니다. 단순히 타율(AVG)이나 홈런 수뿐만 아니라, 등 선수의 실제 가치를 더 정확하게 나타내는 지표들을 사용합니다. - 출루율 + 장타율. 현대 야...
+            - generic [ref=e532]:
+              - link "원문 보기" [ref=e533] [cursor=pointer]:
+                - /url: https://suhyunkim-maker.github.io/post.html?file=ohtani-analysis.md
+                - generic [ref=e534]: 원문 보기
+                - img [ref=e535]
+              - button "회의록으로 가져오기" [ref=e539]:
+                - img [ref=e540]
+                - generic [ref=e543]: 회의록으로 가져오기
+          - generic [ref=e544]:
+            - generic [ref=e545]:
+              - generic [ref=e546]:
+                - generic [ref=e547]: Projects
+                - generic [ref=e548]:
+                  - img [ref=e549]
+                  - text: 2026-05-15
+              - heading "공공데이터포털 API로 다중 페이지 데이터 수집 및 가공하기" [level=4] [ref=e551]
+              - paragraph [ref=e552]: "이번 포스팅에서는 에서 제공하는 API를 활용하여 여러 페이지에 걸친 데이터를 반복문(`for`문)으로 한 번에 수집하고, 이를 `pandas`를 이용해 원하는 형태의 데이터프레임으로 전처리하는 과정을 공유합니다. `requests` 라이브러리를 사용하여 API에 요청을 보냅니다. `api.odcloud.kr`은 일반적인 공공데이터 API(data.go...."
+            - generic [ref=e553]:
+              - generic [ref=e554]:
+                - generic [ref=e555]: "#Python"
+                - generic [ref=e556]: "#Requests"
+                - generic [ref=e557]: "#Pandas"
+                - generic [ref=e558]: "#API"
+              - generic [ref=e559]:
+                - link "원문 보기" [ref=e560] [cursor=pointer]:
+                  - /url: https://suhyunkim-maker.github.io/post.html?file=odcloud-api-crawling.md
+                  - generic [ref=e561]: 원문 보기
+                  - img [ref=e562]
+                - button "회의록으로 가져오기" [ref=e566]:
+                  - img [ref=e567]
+                  - generic [ref=e570]: 회의록으로 가져오기
+          - generic [ref=e571]:
+            - generic [ref=e572]:
+              - generic [ref=e573]:
+                - generic [ref=e574]: Projects
+                - generic [ref=e575]:
+                  - img [ref=e576]
+                  - text: 2026-05-15
+              - heading "instagram-eda-insights" [level=4] [ref=e578]
+              - paragraph [ref=e579]: "데이터 전처리 과정을 마친 후, 이제 본격적으로 인스타그램 인플루언서 데이터를 탐색하고 시각화하기 위한 준비를 마쳤습니다. 이번 포스팅에서는 정제된 데이터를 바탕으로 상위 인플루언서들의 주요 지표를 살펴보고, 어떤 통찰을 얻을 수 있는지 공유하고자 합니다. 전처리가 완료된 데이터(`insta_influencers_tableau_ready.csv`)는 다음과..."
+            - generic [ref=e581]:
+              - link "원문 보기" [ref=e582] [cursor=pointer]:
+                - /url: https://suhyunkim-maker.github.io/post.html?file=instagram-eda-insights.md
+                - generic [ref=e583]: 원문 보기
+                - img [ref=e584]
+              - button "회의록으로 가져오기" [ref=e588]:
+                - img [ref=e589]
+                - generic [ref=e592]: 회의록으로 가져오기
+          - generic [ref=e593]:
+            - generic [ref=e594]:
+              - generic [ref=e595]:
+                - generic [ref=e596]: Projects
+                - generic [ref=e597]:
+                  - img [ref=e598]
+                  - text: 2026-05-15
+              - heading "data-preprocessing" [level=4] [ref=e600]
+              - paragraph [ref=e601]: 본 포스팅에서는 인스타그램 인플루언서 데이터 분석 프로젝트의 핵심 단계인 을 상세히 다룹니다. 원본 데이터를 분석 및 시각화(Tableau)에 적합한 형태로 변환하는 과정을 확인해 보세요. --- - Top Instagram Influencers - 200개 행 - rank, channel_info, influence_score, followers,
+            - generic [ref=e603]:
+              - link "원문 보기" [ref=e604] [cursor=pointer]:
+                - /url: https://suhyunkim-maker.github.io/post.html?file=data-preprocessing.md
+                - generic [ref=e605]: 원문 보기
+                - img [ref=e606]
+              - button "회의록으로 가져오기" [ref=e610]:
+                - img [ref=e611]
+                - generic [ref=e614]: 회의록으로 가져오기
+          - generic [ref=e615]:
+            - generic [ref=e616]:
+              - generic [ref=e617]:
+                - generic [ref=e618]: Projects
+                - generic [ref=e619]:
+                  - img [ref=e620]
+                  - text: 2026-05-15
+              - heading "bunjang-crawling-playwright" [level=4] [ref=e622]
+              - paragraph [ref=e623]: "최근 AI 에이전트와 를 연동하여 번개장터에서 '물티슈' 상품 데이터를 자동으로 스크래핑(크롤링)해 본 경험을 공유합니다. 기존에 파이썬 스크립트를 작성해서 Selenium이나 BeautifulSoup을 돌리는 과정과 달리, Playwright MCP를 사용하면 AI 어시스턴트(AI 에이전트)가 브라우저를 직접 띄우고: 1. 페이지를 이동하고 2. 동적 로..."
+            - generic [ref=e625]:
+              - link "원문 보기" [ref=e626] [cursor=pointer]:
+                - /url: https://suhyunkim-maker.github.io/post.html?file=bunjang-crawling-playwright.md
+                - generic [ref=e627]: 원문 보기
+                - img [ref=e628]
+              - button "회의록으로 가져오기" [ref=e632]:
+                - img [ref=e633]
+                - generic [ref=e636]: 회의록으로 가져오기
+          - generic [ref=e637]:
+            - generic [ref=e638]:
+              - generic [ref=e639]:
+                - generic [ref=e640]: Projects
+                - generic [ref=e641]:
+                  - img [ref=e642]
+                  - text: 2025-05-08
+              - heading "인스타그램 인플루언서 데이터 분석" [level=4] [ref=e644]
+              - paragraph [ref=e645]: "메인 인스타그램 인플루언서에 대한 데이터 분석 프로젝트입니다. - : Pandas - : Google Colab - 데이터 기반 인플루언서 추천 - 구글 코랩을 활용한 데이터 분석 코딩"
+            - generic [ref=e646]:
+              - generic [ref=e647]:
+                - generic [ref=e648]: "#Pandas"
+                - generic [ref=e649]: "#Google Colab"
+                - generic [ref=e650]: "#Data Analysis"
+              - generic [ref=e651]:
+                - link "원문 보기" [ref=e652] [cursor=pointer]:
+                  - /url: https://suhyunkim-maker.github.io/post.html?file=instagram-analysis.md
+                  - generic [ref=e653]: 원문 보기
+                  - img [ref=e654]
+                - button "회의록으로 가져오기" [ref=e658]:
+                  - img [ref=e659]
+                  - generic [ref=e662]: 회의록으로 가져오기
+          - generic [ref=e663]:
+            - generic [ref=e664]:
+              - generic [ref=e665]:
+                - generic [ref=e666]: Development
+                - generic [ref=e667]:
+                  - img [ref=e668]
+                  - text: 2025-01-26
+              - heading "첫 번째 게시글" [level=4] [ref=e670]
+              - paragraph [ref=e671]: 여기에 마크다운 형식으로 내용을 작성합니다.
+            - generic [ref=e672]:
+              - generic [ref=e673]:
+                - generic [ref=e674]: "#JavaScript"
+                - generic [ref=e675]: "#Web"
+              - generic [ref=e676]:
+                - link "원문 보기" [ref=e677] [cursor=pointer]:
+                  - /url: https://suhyunkim-maker.github.io/post.html?file=example.md
+                  - generic [ref=e678]: 원문 보기
+                  - img [ref=e679]
+                - button "회의록으로 가져오기" [ref=e683]:
+                  - img [ref=e684]
+                  - generic [ref=e687]: 회의록으로 가져오기
+      - generic [ref=e276]:
+        - generic [ref=e277] [cursor=pointer]:
+          - generic [ref=e278]:
+            - img [ref=e280]
+            - generic [ref=e282]:
+              - heading "SH 서버 사이드 로그 파일 실시간 뷰어 (Log Inspector)" [level=4] [ref=e283]
+              - paragraph [ref=e284]: "Physical location: backend server ~/logs/*"
+          - generic [ref=e285]:
+            - button "로그 새로고침" [ref=e286]:
+              - img [ref=e287]
+              - generic [ref=e292]: 로그 새로고침
+            - img [ref=e293]
+        - generic [ref=e295]:
+          - generic [ref=e296]:
+            - button "blog_sync.log" [ref=e297]
+            - button "meetings.log" [ref=e298]
+            - button "system_activity.log" [ref=e299]
+          - generic [ref=e688]:
+            - generic [ref=e689]: "[1]"
+            - text: "[SYNC][2026-05-27T04:20:09.936Z] INFO: Blog synchronized successfully. Found 15 posts."
+          - generic [ref=e302]:
+            - generic [ref=e303]: "Status: Online"
+            - generic [ref=e304]: "Total cached lines: 2 lines"

@@ -1,0 +1,1 @@
+{"name":"E-Land Hotel Meeting Recorder","description":"실시간 미팅 음성 기록 및 관리 서비스 (Chrome 전용 Web Speech API 활용)","requestFramePermissions":["microphone"],"majorCapabilities":["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]}

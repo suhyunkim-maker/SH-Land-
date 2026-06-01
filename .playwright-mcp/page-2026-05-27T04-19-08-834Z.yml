@@ -1,0 +1,102 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img [ref=e8]
+        - generic [ref=e12]:
+          - heading "SH HOTEL" [level=1] [ref=e13]
+          - paragraph [ref=e14]: IT Meeting Recorder
+      - generic [ref=e15]: 대모산 SH호텔 IT 서비스 기획
+    - generic [ref=e16]:
+      - button "업무 회의록" [ref=e17]:
+        - img [ref=e18]
+        - generic [ref=e22]: 업무 회의록
+      - button "김수현 블로그" [active] [ref=e23]:
+        - img [ref=e24]
+        - generic [ref=e27]: 김수현 블로그
+    - button "새 회의 추가하기" [ref=e30]:
+      - img [ref=e31]
+      - generic [ref=e32]: 새 회의 추가하기
+    - generic [ref=e34]:
+      - img [ref=e35]
+      - textbox "회의 제목, 부서, 내용 검색..." [ref=e38]
+    - generic [ref=e39]:
+      - paragraph [ref=e41]: 미팅 히스토리 (1)
+      - generic [ref=e43] [cursor=pointer]:
+        - heading "대모산 SH호텔 로봇 자동화 서비스 설계 주간 미팅" [level=3] [ref=e45]
+        - generic [ref=e46]:
+          - img [ref=e47]
+          - generic [ref=e51]: 호텔 IT 사업부
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - img [ref=e54]
+            - generic [ref=e56]: 2026-05-27
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - img [ref=e59]
+              - text: AI
+            - button "기록 삭제" [ref=e62]:
+              - img [ref=e63]
+    - generic [ref=e66]:
+      - generic [ref=e67]: 보기 방식
+      - generic [ref=e68]:
+        - button "목록" [ref=e69]:
+          - img [ref=e70]
+          - generic [ref=e71]: 목록
+        - button "캘린더" [ref=e72]:
+          - img [ref=e73]
+          - generic [ref=e75]: 캘린더
+    - generic [ref=e76]: SH Hotel System Environment
+  - main [ref=e77]:
+    - generic [ref=e78]:
+      - generic [ref=e79]:
+        - generic [ref=e80]: In-house Tech PM Service
+        - generic [ref=e81]:
+          - img [ref=e82]
+          - heading "김수현 PM 블로그 연동 대시보드" [level=2] [ref=e245]
+      - generic [ref=e85]: "System status: ● Online"
+    - generic [ref=e246]:
+      - generic [ref=e248]:
+        - generic [ref=e249]:
+          - generic [ref=e250]:
+            - generic [ref=e251]: EXTERNAL SYNC MODULE
+            - generic [ref=e252]: Live API Ready
+          - heading "김수현 PM 포트폴리오 & 블로그 연동 대시보드" [level=2] [ref=e254]
+          - paragraph [ref=e255]:
+            - text: 호텔 IT 기획 담당 김수현 PM의 개인 기술 블로그(
+            - code [ref=e256]: suhyunkim-maker.github.io
+            - text: )에 탑재된 프로젝트 포스팅 내역을 실시간 수집하고, 서버 로그 연계 아카이브에 영구적으로 보존합니다.
+        - button "블로그 데이터 동기화" [ref=e257]:
+          - img [ref=e258]
+          - generic [ref=e263]: 블로그 데이터 동기화
+      - generic [ref=e264]:
+        - generic [ref=e265]:
+          - heading "연동된 실무 포스트 목록 (0건)" [level=3] [ref=e266]:
+            - img [ref=e267]
+            - text: 연동된 실무 포스트 목록 (0건)
+          - generic [ref=e269]: "Source: suhyunkim-maker.github.io/posts.json"
+        - generic [ref=e270]:
+          - img [ref=e271]
+          - paragraph [ref=e274]: 블로그 데이터가 비어 있습니다
+          - paragraph [ref=e275]: 상단의 [블로그 데이터 동기화] 버튼을 누르시면 김수현 PM 블로그의 실제 데이터가 이 자리에 실시간으로 로드됩니다.
+      - generic [ref=e276]:
+        - generic [ref=e277] [cursor=pointer]:
+          - generic [ref=e278]:
+            - img [ref=e280]
+            - generic [ref=e282]:
+              - heading "SH 서버 사이드 로그 파일 실시간 뷰어 (Log Inspector)" [level=4] [ref=e283]
+              - paragraph [ref=e284]: "Physical location: backend server ~/logs/*"
+          - generic [ref=e285]:
+            - button "로그 새로고침" [ref=e286]:
+              - img [ref=e287]
+              - generic [ref=e292]: 로그 새로고침
+            - img [ref=e293]
+        - generic [ref=e295]:
+          - generic [ref=e296]:
+            - button "blog_sync.log" [ref=e297]
+            - button "meetings.log" [ref=e298]
+            - button "system_activity.log" [ref=e299]
+          - paragraph [ref=e301]: 동기화 로그 파일이 비어 있습니다. 블로그 동기화를 실행해 보세요.
+          - generic [ref=e302]:
+            - generic [ref=e303]: "Status: Online"
+            - generic [ref=e304]: "Total cached lines: 0 lines"

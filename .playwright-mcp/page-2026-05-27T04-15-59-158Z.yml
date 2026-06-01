@@ -1,0 +1,93 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic:
+      - text: AUTOMATE
+      - text: EVERYTHING
+    - generic [ref=e4]:
+      - generic [ref=e5]: NEW!
+      - heading "팀장이 챙기던 업무, 이제 자동으로!" [level=1] [ref=e6]:
+        - text: 팀장이 챙기던 업무,
+        - text: 이제 자동으로!
+      - paragraph [ref=e7]: 리마인드와 진척도 확인, 시스템에 맡기세요.
+      - button "무료 체험 시작하기!" [ref=e9] [cursor=pointer]
+      - generic [ref=e11]: UI DASHBOARD MOCKUP
+    - generic [ref=e13]:
+      - heading "매일 반복되는 피로!" [level=2] [ref=e14]
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e17]: PROBLEM 1
+          - generic [ref=e18]: 😫
+          - heading "\"어떻게 됐나요?\"" [level=3] [ref=e19]
+          - paragraph [ref=e20]: 끊임없이 팀원들에게 진척도를 물어보는 소모적인 커뮤니케이션
+        - generic [ref=e21]:
+          - generic [ref=e22]: PROBLEM 2
+          - generic [ref=e23]: 🚨
+          - heading "\"아, 잊고 있었네요\"" [level=3] [ref=e24]
+          - paragraph [ref=e25]: 바쁜 팀원들의 업무 누락을 막기 위해 마감일을 체크하는 스트레스
+        - generic [ref=e26]:
+          - generic [ref=e27]: PROBLEM 3
+          - generic [ref=e28]: 🕵️
+          - heading "\"담당자가 누구죠?\"" [level=3] [ref=e29]
+          - paragraph [ref=e30]: 업무 히스토리가 흩어져 있어 책임 소재를 파악하기 어려움
+    - generic [ref=e32]:
+      - heading "알아서 굴러가는 마법!" [level=2] [ref=e33]
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]: FEATURE 1
+          - heading "리마인드 자동화" [level=3] [ref=e37]
+          - paragraph [ref=e38]: 마감일이 다가오면 봇이 알아서 알림을 전송합니다. 팀장이 독촉할 필요가 없습니다!
+        - generic [ref=e39]: REMIND BOT
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]: FEATURE 2
+          - heading "진행 추적 대시보드" [level=3] [ref=e43]
+          - paragraph [ref=e44]: 모든 업무 진행 상황이 한눈에 보이는 실시간 대시보드. 누가 뭘 하는지 직관적으로 파악!
+        - generic [ref=e45]: KANBAN UI
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]: FEATURE 3
+          - heading "스마트 누락 방지" [level=3] [ref=e49]
+          - paragraph [ref=e50]: 지연 중이거나 누락 위험이 있는 업무를 시스템이 감지해 팀장에게만 리포트!
+        - generic [ref=e51]: SMART ALERTS
+    - generic [ref=e53]:
+      - heading "다양한 흐름에 완벽 적용!" [level=2] [ref=e54]
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - generic [ref=e57]: "1"
+          - heading "주간 회의" [level=3] [ref=e58]
+          - paragraph [ref=e59]: 회의 전 팀원 주간 리포트 자동 취합!
+        - generic [ref=e60]:
+          - generic [ref=e61]: "2"
+          - heading "콘텐츠 발행" [level=3] [ref=e62]
+          - paragraph [ref=e63]: 기획-제작 단계가 넘어가면 담당자 자동 Ping!
+        - generic [ref=e64]:
+          - generic [ref=e65]: "3"
+          - heading "월말 정산" [level=3] [ref=e66]
+          - paragraph [ref=e67]: 제출 기한 알림부터 자동 독촉까지!
+    - generic [ref=e69]:
+      - heading "합리적인 요금제!" [level=2] [ref=e70]
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - heading "FREE" [level=3] [ref=e73]
+          - generic [ref=e74]: ₩0
+          - list [ref=e75]:
+            - listitem [ref=e76]: ✅ 모든 기능 제한 없음
+            - listitem [ref=e77]: ✅ 무제한 팀원 초대
+          - button "START NOW" [ref=e78] [cursor=pointer]
+        - generic [ref=e79]:
+          - generic [ref=e80]: HOT!
+          - heading "PRO" [level=3] [ref=e81]
+          - generic [ref=e82]: ₩15K
+          - list [ref=e83]:
+            - listitem [ref=e84]: ✅ 강력한 워크플로우
+            - listitem [ref=e85]: ✅ 외부 툴(Slack) 연동
+          - button "GET PRO" [ref=e86] [cursor=pointer]
+        - generic [ref=e87]:
+          - heading "TEAM" [level=3] [ref=e88]
+          - generic [ref=e89]: ₩25K
+          - list [ref=e90]:
+            - listitem [ref=e91]: ✅ 다수 부서 통합 관리
+            - listitem [ref=e92]: ✅ 고급 보안 제어
+          - button "CONTACT US" [ref=e93] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e99] [cursor=pointer]:
+    - img [ref=e100]

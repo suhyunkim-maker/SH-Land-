@@ -1,0 +1,14 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - heading "hello su-hyun kim" [level=1] [ref=e4]:
+        - link "hello su-hyun kim" [ref=e5] [cursor=pointer]:
+          - /url: index.html
+      - navigation [ref=e6]:
+        - button "🌓" [ref=e7] [cursor=pointer]
+  - main [ref=e8]:
+    - article
+  - contentinfo [ref=e10]:
+    - paragraph [ref=e11]: © 2025 My Blog. Powered by GitHub Pages.
+  - button [ref=e12] [cursor=pointer]:
+    - img [ref=e13]
