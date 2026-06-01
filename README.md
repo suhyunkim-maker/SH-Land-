@@ -1,3 +1,4 @@
+https://sh-land-meeting-recorder.vercel.app/
 ## 🚀 실시간 배포 및 실시간 프리뷰 주소
 💻 PC 통합 SH-Land 
 <회의록 녹음 자동화 대시보드> 
