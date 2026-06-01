@@ -1,19 +1,7 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-https://ai.studio/apps/b1a1e483-866a-4124-b410-5c2832ba29ee?fullscreenApplet=true
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🚀 실시간 배포 및 실시간 프리뷰 주소
+💻 PC 통합 SH-Land 
+<회의록 녹음 자동화 대시보드> 
+배포판 (Vercel Live)
+   **[https://next-extension-blond.vercel.app/index.html](https://next-extension-blond.vercel.app/index.html)**
+ 파일들은 Vercel의 불변형 서버리스 시스템에 읽기 전용(Read-only)으로 보관되어, 외부의 불법적인 조작이나 런타임 상의 파일 수정 시도가 원천 차단됩니다.
+*   **CI/CD Pipeline Lock**: 모든 변경 사항은 깃허브 `main` 브랜치의 정식 Pull Request와 커밋 통제를 통해서만 원격 빌드 및 반영이 가능하도록 잠금 처리되었습니다.
