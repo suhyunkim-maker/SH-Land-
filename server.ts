@@ -224,11 +224,15 @@ async function setupViteOrStatic() {
     });
   }
 
-  app.listen(PORT, "0.0.0.0", () => {
-    console.log(`SH Hotel Meeting Recorder Server listening on port ${PORT}`);
-  });
+  if (!process.env.VERCEL) {
+    app.listen(PORT, "0.0.0.0", () => {
+      console.log(`SH Hotel Meeting Recorder Server listening on port ${PORT}`);
+    });
+  }
 }
 
 setupViteOrStatic().catch(err => {
   console.error("Failed to start server:", err);
 });
+
+export default app;
